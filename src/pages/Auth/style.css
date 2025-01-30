@@ -1,0 +1,5 @@
+.host-rent-btns button svg{fill: #235370; transition: all .3s ease-in-out;}
+.host-rent-btns button{display: flex; gap: 16px; cursor: pointer; transition: all .3s ease-in-out; align-items: center; padding: 32px 36px; border: 1px solid #235370; border-radius: 16px; color: #235370;}
+.host-rent-btns button:hover svg{fill: #fff;}
+.host-rent-btns button:hover{background: #235370; color: #fff;}
+

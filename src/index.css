@@ -28,6 +28,8 @@ h1,h2,h3,h4,h5,h6{font-family: "Montserrat", serif;}
 .btn-pri{font-size: 18px; font-weight: 400; border-radius: 16px; border: 1px solid #235370; color: #fff; padding: 12px 24px; display: inline-block;font-size: 18px; background: #235370; transition: all .4s ease;} 
 .btn-sec:hover,.btn-pri:hover{ background: #1E1E1E; border-color: #1E1E1E; color: #fff;}
 
+.btn-sec.with-icn,
+.btn-pri.with-icn{display: inline-flex; align-items: center; gap: 6px;}
 
 /* responsive */
 @media only screen and (max-width: 1024px) {
