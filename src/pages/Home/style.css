@@ -1,0 +1,4 @@
+.store-hover {fill: #1E1E1E; transition: all .3s ease-in-out;}
+.store-hover:hover{background: #235370; border-color: #235370;}
+.store-hover svg{fill: #1E1E1E; transition: all .3s ease-in-out;}
+.store-hover:hover svg{fill: #fff;}

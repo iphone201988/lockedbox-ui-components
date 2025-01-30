@@ -16,25 +16,25 @@ const Footer = () => {
           </div>
           <div className="flex gap-10">
             <div className=" flex flex-col gap-2">
-              <p className="text-[18px] text-[#235370] font-medium">Services</p>
+              <p className="text-[18px] text-[#235370] font-semibold monts-font">Services</p>
               <a href="#">Find Storage</a>
               <a href="#">Delivery</a>
               <a href="#">Pick-up</a>
             </div>
             <div className=" flex flex-col gap-2">
-              <p className="text-[18px] text-[#235370] font-medium">Links</p>
+              <p className="text-[18px] text-[#235370] font-semibold monts-font">Links</p>
               <a href="#">Home</a>
               <a href="#">Delivery</a>
               <a href="#">Pick-up</a>
             </div>
             <div className=" flex flex-col gap-2">
-              <p className="text-[18px] text-[#235370] font-medium">Support</p>
+              <p className="text-[18px] text-[#235370] font-semibold monts-font">Support</p>
               <a href="#">FAQ</a>
               <a href="#">Contact Us</a>
               <a href="#">Support Centre</a>
             </div>
             <div className=" flex flex-col gap-2">
-              <p className="text-[18px] text-[#235370] font-medium">Company</p>
+              <p className="text-[18px] text-[#235370] font-semibold monts-font">Company</p>
               <a href="#">About</a>
               <a href="#">Press</a>
               <a href="#">Job Openings</a>
