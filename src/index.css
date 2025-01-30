@@ -8,7 +8,17 @@
     src: url(./assets/fonts/ProximaNova-Regular.otf);
 }
 
-body{font-family: 'Proxima-Regular', sans-serif;}
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-2xl: 1580px;
+    --breakpoint-xl: 1366px;
+    --breakpoint-mlg: 1280px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-md: 767px;
+    --breakpoint-sm: 480px;
+  }
+
+body{font-family: 'Proxima-Regular', sans-serif; line-height: normal;}
 h1,h2,h3,h4,h5,h6{font-family: "Montserrat", serif;}
 .monts-font{font-family: "Montserrat", serif;}
 
@@ -17,3 +27,9 @@ h1,h2,h3,h4,h5,h6{font-family: "Montserrat", serif;}
 .btn-sec{font-size: 18px; font-weight: 400; border-radius: 16px; border: 1px solid #235370; color: #235370; padding: 12px 24px; display: inline-block; font-size: 18px;transition: all .4s ease;}
 .btn-pri{font-size: 18px; font-weight: 400; border-radius: 16px; border: 1px solid #235370; color: #fff; padding: 12px 24px; display: inline-block;font-size: 18px; background: #235370; transition: all .4s ease;} 
 .btn-sec:hover,.btn-pri:hover{ background: #1E1E1E; border-color: #1E1E1E; color: #fff;}
+
+
+/* responsive */
+@media only screen and (max-width: 1024px) {
+    .btn-sec,.btn-pri{font-size: 16px;}
+}

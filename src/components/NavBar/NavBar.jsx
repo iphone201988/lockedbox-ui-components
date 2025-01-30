@@ -4,11 +4,11 @@ import logo from "../../assets/logo.png"
 const NavBar = () => {
   return (
     <div className=" border-b border-[#EEEEEE]">
-    <div className=' py-5 px-10 mx-auto flex flex-row items-center justify-between'>
+    <div className=' py-5 px-10 mx-auto flex flex-row items-center justify-between max-lg:px-[20px]'>
       <a href="#">
-      <img className='max-w-[158px] max-md:hidden' src={logo} alt="" />
+      <img className='max-w-[158px] max-lg:max-w-[120px]' src={logo} alt="" />
       </a>
-     <div className="menu flex gap-x-[32px] text-[18px] text-[#1E1E1E] font-light ">
+     <div className="menu flex gap-x-[32px] text-[18px] text-[#1E1E1E] font-light max-lg:text-[16px] max-lg:gap-x-[16px] max-lg:hidden">
         <a className='hover:text-[#235370]' href="#">Find a Space</a>
         <a className='hover:text-[#235370]' href="#">How it Works</a>
         <a className='hover:text-[#235370]' href="#">Contact Us</a>

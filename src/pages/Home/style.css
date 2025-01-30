@@ -2,3 +2,22 @@
 .store-hover:hover{background: #235370; border-color: #235370;}
 .store-hover svg{fill: #1E1E1E; transition: all .3s ease-in-out;}
 .store-hover:hover svg{fill: #fff;}
+
+.before-line::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 510px;
+    background: rgba(35, 82, 112, 60%);
+    top: 0;
+    z-index: -1;
+}
+
+
+/* responsive */
+@media only screen and (max-width: 1024px) {
+    .before-line::before {
+        height: 370px;
+
+    }
+}

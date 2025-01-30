@@ -3,14 +3,14 @@ import StoreImg from "../../../assets/store-img.png";
 
 const Store = () => {
   return (
-    <div className="py-[60px] border-b border-[#EEEEEE]">
-      <div className="max-w-[1440px] px-[40px] mx-auto flex justify-between">
+    <div className="py-[60px] border-b border-[#EEEEEE] max-lg:py-[40px]">
+      <div className="max-w-[1440px] px-[40px] mx-auto flex justify-between gap-[20px] max-lg:px-[20px] max-lg:flex-col-reverse">
         <div className="left">
-          <h2 className="text-[36px] font-bold">
+          <h2 className="text-[36px] font-bold max-lg:text-[26px]">
             What would you like to <span className="text-[#235370]">Store</span>
             ?
           </h2>
-          <div className=" grid grid-cols-[200px_minmax(200px,_1fr)] gap-[16px] mt-[20px] mb-[16px]">
+          <div className=" grid grid-cols-[200px_minmax(200px,_1fr)] gap-[16px] mt-[20px] mb-[16px] max-lg:grid-cols-3">
             <a
               className="store-hover border border-[#EEEEEE] rounded-2xl max-w-[200px] flex items-center justify-center p-[30px]"
               href=""
@@ -143,7 +143,7 @@ const Store = () => {
         </div>
         <div className="right relative">
           <img className="rounded-4xl" src={StoreImg} alt="" />
-          <p className="monts-font text-[18px] font-bold text-[#235370] p-[12px] rounded-[16px] bg-white absolute right-[16px] top-[16px]">
+          <p className="monts-font text-[18px] font-bold text-[#235370] p-[12px] rounded-[16px] bg-white absolute right-[16px] top-[16px] max-lg:text-[16px]">
             Over 50+ options nearby
           </p>
         </div>

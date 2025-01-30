@@ -2,15 +2,15 @@ import React from "react";
 
 const HowToRent = () => {
   return (
-    <div className="py-[60px]">
-      <div className="max-w-[1440px] px-[40px] mx-auto">
-        <h2 className="text-[36px] font-bold text-center mb-[40px]">
+    <div className="py-[60px] max-lg:py-[40px]">
+      <div className="max-w-[1440px] px-[40px] mx-auto max-lg:px-[20px]">
+        <h2 className="text-[36px] font-bold text-center mb-[40px] max-lg:text-[26px]">
           How to <span className="text-[#235370]">rent</span>
         </h2>
 
-        <div className="">
-        <div className="step-one flex justify-center gap-[50px]">
-          <div className="max-w-[260px] flex flex-col items-end">
+        <div className="flex flex-col items-center justify-center gap-[60px] max-lg:gap-[40px] max-md:justify-start max-md:items-start">
+        <div className="step-one flex justify-center gap-[50px] min-w-[370px] max-lg:gap-[24px] ml-[-18rem] max-lg:ml-[-16rem] max-md:ml-0 max-md:min-w-auto max-md:flex-row-reverse ">
+          <div className="max-w-[260px] flex flex-col items-end max-md:items-start">
             <svg
               width="58"
               height="58"
@@ -30,18 +30,18 @@ const HowToRent = () => {
                 </clipPath>
               </defs>
             </svg>
-            <h5 className="text-[26px] font-bold text-right mt-[16px] mb-[6px]">
+            <h5 className="text-[26px] font-bold text-right mt-[16px] mb-[6px] max-lg:text-[18px] max-md:text-left">
               Find desired space
             </h5>
-            <p className="text-[24px] text-right max-w-[240px]">
+            <p className="text-[24px] text-right max-w-[240px] max-lg:text-[16px] max-md:text-left">
               We offer user-friendly search interfaces.
             </p>
           </div>
-          <p className="w-[60px] h-[60px] flex justify-center items-center bg-[#235370] font-semibold text-[28px] text-white rounded-full">
+          <p className="before-line relative w-[60px] h-[60px] flex justify-center items-center bg-[#235370] font-semibold text-[28px] text-white rounded-full">
             1
           </p>
         </div>
-        <div className="step-two flex justify-center gap-[50px]">
+        <div className="step-two flex justify-center gap-[50px] min-w-[370px] max-lg:gap-[24px] mr-[-19rem] max-lg:mr-[-14.5rem]  max-md:mr-0 max-md:min-w-auto">
           <p className="w-[60px] h-[60px] flex justify-center items-center bg-[#235370] font-semibold text-[28px] text-white rounded-full">
             2
           </p>
@@ -66,16 +66,16 @@ const HowToRent = () => {
               </defs>
             </svg>
 
-            <h5 className="text-[26px] font-bold text-left mt-[16px] mb-[6px]">
+            <h5 className="text-[26px] font-bold text-left mt-[16px] mb-[6px] max-lg:text-[18px]">
               Book your space
             </h5>
-            <p className="text-[24px] text-left max-w-[240px]">
+            <p className="text-[24px] text-left max-w-[240px] max-lg:text-[16px]">
               All hosts are identity verified.
             </p>
           </div>
         </div>
-        <div className="step-one flex justify-center gap-[50px]">
-          <div className="max-w-[260px] flex flex-col items-end">
+        <div className="step-one flex justify-center gap-[50px] min-w-[370px] max-lg:gap-[24px] ml-[-14.3rem]  max-lg:ml-[-9.4rem]  max-md:ml-0 max-md:min-w-auto max-md:flex-row-reverse">
+          <div className="max-w-[260px] flex flex-col items-end max-md:items-start">
             <svg
               width="58"
               height="58"
@@ -96,10 +96,10 @@ const HowToRent = () => {
               </defs>
             </svg>
 
-            <h5 className="text-[26px] font-bold text-right mt-[16px] mb-[6px]">
+            <h5 className="text-[26px] font-bold text-right mt-[16px] mb-[6px] max-lg:text-[18px] max-md:text-left">
               Start packing!
             </h5>
-            <p className="text-[24px] text-right max-w-[240px]">
+            <p className="text-[24px] text-right max-w-[240px] max-lg:text-[16px] max-md:text-left">
               Your space awaits.
             </p>
           </div>
@@ -107,6 +107,7 @@ const HowToRent = () => {
             3
           </p>
         </div>
+        <a className="btn-pri" href="">Start Search</a>
         </div>
       </div>
     </div>

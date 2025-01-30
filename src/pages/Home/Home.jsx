@@ -6,6 +6,8 @@ import Footer from '../../components/Footer/Footer';
 import Listings from './components/Listings';
 import Store from './components/Store';
 import HowToRent from './components/HowToRent';
+import HostWithUs from './components/HostWithUs';
+import JoinHost from './components/JoinHost';
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
      <Listings/>
      <Store/>
      <HowToRent/>
+     <HostWithUs/>
+     <JoinHost/>
      <Footer/>
     </>
   )
