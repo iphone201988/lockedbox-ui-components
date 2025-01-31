@@ -7,6 +7,8 @@ import ResetPassword from "./pages/Auth/ResetPassword/ResetPassword";
 import Signup from "./pages/Auth/Signup/Signup";
 import Verify from "./pages/Auth/Verify/Verify";
 import Home from "./pages/Home/Home";
+import Search from "./pages/Search/Search";
+import SearchResult from "./pages/SearchResult/SearchResult";
 
 function App() {
 
@@ -20,7 +22,10 @@ function App() {
      {/* <HostOrRent/> */}
      {/* <ForgotPassword/> */}
      {/* <ResetPassword/> */}
-     <PasswordSuccess/>
+     {/* <PasswordSuccess/> */}
+
+     {/* <Search/> */}
+     <SearchResult/>
     </>
   );
 }
