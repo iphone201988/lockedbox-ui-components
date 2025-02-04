@@ -37,8 +37,8 @@ const Signup = () => {
              <div className="w-full mt-[30px] flex flex-col gap-[20px] items-center">
              <div className="w-full max-w-[540px]">
               <div className="select-option flex justify-end mb-[10px] gap-[12px]">
-                <button className="btn-pri">Login by Email</button>
-                <button className="btn-sec">Login by Phone number</button>
+                <button className="btn-pri">Signup by Email</button>
+                <button className="btn-sec">Signup by Phone number</button>
               </div>
               {/* for email */}
             <div className="input-with-icon relative w-full max-w-[540px]">

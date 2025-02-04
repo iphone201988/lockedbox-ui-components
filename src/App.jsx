@@ -16,12 +16,12 @@ function App() {
   return (
     <>
      {/* <Home/> */}
-     <Login/>
+     {/* <Login/> */}
      <Signup/>
      {/* <Verify/> */}
      {/* <CreatePassword/> */}
      {/* <HostOrRent/> */}
-     {/* <ForgotPassword/> */}
+     <ForgotPassword/>
      {/* <ResetPassword/> */}
      {/* <PasswordSuccess/> */}
 
