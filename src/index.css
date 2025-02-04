@@ -50,6 +50,15 @@ h1,h2,h3,h4,h5,h6{font-family: "Montserrat", serif;}
 .profile-link:hover{color: #235370;}
 .notify-dot{width: 12px; height: 12px; min-width: 12px; background: #235370; border-radius: 50%; margin-left: auto;}
 
+.country-code.react-tel-input {
+  font-family: 'Proxima-Regular';
+  font-size: 16px;
+  position: relative;
+  width: 100%;
+}
+.country-code.react-tel-input .flag-dropdown{background: none; border: none;}
+.country-code.react-tel-input .form-control {background: none; border: none; font-size: 16px; height: auto;}
+
 
 
 /* responsive */
