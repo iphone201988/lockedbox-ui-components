@@ -3,3 +3,4 @@
 .host-rent-btns button:hover svg{fill: #fff;}
 .host-rent-btns button:hover{background: #235370; color: #fff;}
 
+.select-option button{font-size: 14px; font-weight: 400; padding: 8px 12px; cursor: pointer; border-radius: 12px;}

@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const HowToRent = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div className="py-[60px] max-lg:py-[40px]">
       <div className="max-w-[1440px] px-[40px] mx-auto max-lg:px-[20px]">
@@ -9,7 +14,7 @@ const HowToRent = () => {
         </h2>
 
         <div className="flex flex-col items-center justify-center gap-[60px] max-lg:gap-[40px] max-md:justify-start max-md:items-start">
-        <div className="step-one flex justify-center gap-[50px] min-w-[370px] max-lg:gap-[24px] ml-[-18rem] max-lg:ml-[-16rem] max-md:ml-0 max-md:min-w-auto max-md:flex-row-reverse ">
+        <div data-aos="fade-up" data-aos-duration="3000"  className="step-one flex justify-center gap-[50px] min-w-[370px] max-lg:gap-[24px] ml-[-18rem] max-lg:ml-[-16rem] max-md:ml-0 max-md:min-w-auto max-md:flex-row-reverse ">
           <div className="max-w-[260px] flex flex-col items-end max-md:items-start">
             <svg
               width="58"
@@ -41,7 +46,7 @@ const HowToRent = () => {
             1
           </p>
         </div>
-        <div className="step-two flex justify-center gap-[50px] min-w-[370px] max-lg:gap-[24px] mr-[-19rem] max-lg:mr-[-14.5rem]  max-md:mr-0 max-md:min-w-auto">
+        <div data-aos="fade-up" data-aos-duration="3000" className="step-two flex justify-center gap-[50px] min-w-[370px] max-lg:gap-[24px] mr-[-19rem] max-lg:mr-[-14.5rem]  max-md:mr-0 max-md:min-w-auto">
           <p className="w-[60px] h-[60px] flex justify-center items-center bg-[#235370] font-semibold text-[28px] text-white rounded-full">
             2
           </p>
@@ -74,7 +79,7 @@ const HowToRent = () => {
             </p>
           </div>
         </div>
-        <div className="step-one flex justify-center gap-[50px] min-w-[370px] max-lg:gap-[24px] ml-[-14.3rem]  max-lg:ml-[-9.4rem]  max-md:ml-0 max-md:min-w-auto max-md:flex-row-reverse">
+        <div data-aos="fade-up" data-aos-duration="3000" className="step-one flex justify-center gap-[50px] min-w-[370px] max-lg:gap-[24px] ml-[-14.3rem]  max-lg:ml-[-9.4rem]  max-md:ml-0 max-md:min-w-auto max-md:flex-row-reverse">
           <div className="max-w-[260px] flex flex-col items-end max-md:items-start">
             <svg
               width="58"
@@ -107,7 +112,7 @@ const HowToRent = () => {
             3
           </p>
         </div>
-        <a className="btn-pri" href="">Start Search</a>
+        <a data-aos="fade-up" data-aos-duration="3000" className="btn-pri" href="">Start Search</a>
         </div>
       </div>
     </div>

@@ -35,12 +35,74 @@ const Login = () => {
           />
           <h1 className="text-[52px] font-bold max-lg:text-[36px] text-center">Log-In</h1>
           <div className="w-full mt-[30px] flex flex-col gap-[20px] items-center">
+            <div className="w-full max-w-[540px]">
+              <div className="select-option flex justify-end mb-[10px] gap-[12px]">
+                <button className="btn-pri">Login by Email</button>
+                <button className="btn-sec">Login by Phone number</button>
+              </div>
+              {/* for email */}
             <div className="input-with-icon relative w-full max-w-[540px]">
               <input
                 className="border border-[#EEEEEE] py-[20px] px-[16px] w-full rounded-2xl "
                 type="email"
-                placeholder="Phone / Email"
+                placeholder="Email"
               />
+            </div>
+              {/* for phone number */}
+            <div className="input-with-icon relative w-full max-w-[540px]">
+              
+            <div className="">
+  <div className="">
+    <div className="absolute top-[20px] left-0 flex items-center pl-3">
+      <button
+        id="dropdownButton"
+        className="h-full text-[16px] flex justify-center items-center bg-transparent text-[#000]"
+      >
+        <span id="dropdownSpan">+1</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          className="h-4 w-4 ml-1"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+        </svg>
+      </button>
+      <div className="h-6 border-l border-slate-200 ml-2"></div>
+      <div
+        class="min-w-[150px] absolute left-0 w-full mt-10 hidden bg-white border border-slate-200 rounded-md shadow-lg z-10"
+      >
+        <ul id="dropdownOptions">
+          <li class="px-4 py-2 text-slate-600 hover:bg-slate-50 text-sm cursor-pointer" data-value="+33">
+            France (+33)
+          </li>
+          <li class="px-4 py-2 text-slate-600 hover:bg-slate-50 text-sm cursor-pointer" data-value="+49">
+            Germany (+49)
+          </li>
+          <li class="px-4 py-2 text-slate-600 hover:bg-slate-50 text-sm cursor-pointer" data-value="+34">
+            Spain (+34)
+          </li>
+          <li class="px-4 py-2 text-slate-600 hover:bg-slate-50 text-sm cursor-pointer" data-value="+1">
+            USA (+1)
+          </li>
+        </ul>
+      </div>
+    </div>
+    <input
+      type="tel"
+      className="border border-[#EEEEEE] py-[20px] px-[16px] w-full rounded-2xl pl-[80px]"
+      placeholder="Phone Number"
+      pattern="[0-9]*"
+      inputmode="numeric"
+      maxlength="12"
+      id="phoneNumberInput"
+    />
+  </div>
+</div>
+            </div>
+
             </div>
             <div className="input-with-icon relative  w-full max-w-[540px]">
               <input
