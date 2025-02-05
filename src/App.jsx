@@ -6,8 +6,10 @@ import PasswordSuccess from "./pages/Auth/PasswordSuccess/PasswordSuccess";
 import ResetPassword from "./pages/Auth/ResetPassword/ResetPassword";
 import Signup from "./pages/Auth/Signup/Signup";
 import Verify from "./pages/Auth/Verify/Verify";
+import BookingReview from "./pages/BookingReview/BookingReview";
 import Home from "./pages/Home/Home";
 import ListingDetail from "./pages/ListingDetail/ListingDetail";
+import RenterDashboard from "./pages/RenterDashboard/RenterDashboard";
 import Search from "./pages/Search/Search";
 import SearchResult from "./pages/SearchResult/SearchResult";
 
@@ -16,18 +18,21 @@ function App() {
   return (
     <>
      {/* <Home/> */}
-     <Login/>
-     <Signup/>
+     {/* <Login/> */}
+     {/* <Signup/> */}
      {/* <Verify/> */}
      {/* <CreatePassword/> */}
      {/* <HostOrRent/> */}
-     <ForgotPassword/>
+     {/* <ForgotPassword/> */}
      {/* <ResetPassword/> */}
      {/* <PasswordSuccess/> */}
 
      {/* <Search/> */}
      {/* <SearchResult/> */}
      {/* <ListingDetail/> */}
+     {/* <BookingReview/> */}
+
+     <RenterDashboard/>
     </>
   );
 }

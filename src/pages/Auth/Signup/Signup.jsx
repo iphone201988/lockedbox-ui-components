@@ -56,7 +56,7 @@ const Signup = () => {
   country={'us'}
   className='country-code border border-[#EEEEEE] py-[20px] px-[16px] w-full rounded-2xl '
   placeholder="phone number"
-></PhoneInput>
+/>
   
             </div>
 

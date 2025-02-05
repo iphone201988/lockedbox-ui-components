@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -34,10 +35,19 @@ body{font-family: 'Proxima-Regular', sans-serif; line-height: normal;}
 h1,h2,h3,h4,h5,h6{font-family: "Montserrat", serif;}
 .monts-font{font-family: "Montserrat", serif;}
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
 
 /* common */
-.btn-sec{font-size: 18px; font-weight: 400; border-radius: 16px; border: 1px solid #235370; color: #235370; padding: 12px 24px; display: inline-block; font-size: 18px;transition: all .4s ease;}
-.btn-pri{font-size: 18px; font-weight: 400; border-radius: 16px; border: 1px solid #235370; color: #fff; padding: 12px 24px; display: inline-block;font-size: 18px; background: #235370; transition: all .4s ease;} 
+.btn-sec{font-size: 18px; font-weight: 400; border-radius: 16px; border: 1px solid #235370; color: #235370; padding: 12px 24px; display: inline-block; font-size: 18px;transition: all .4s ease; cursor: pointer;}
+.btn-pri{font-size: 18px; font-weight: 400; border-radius: 16px; border: 1px solid #235370; color: #fff; padding: 12px 24px; display: inline-block;font-size: 18px; background: #235370; transition: all .4s ease; cursor: pointer;} 
 .btn-sec:hover,.btn-pri:hover{ background: #1E1E1E; border-color: #1E1E1E; color: #fff;}
 
 .btn-sec.with-icn,
@@ -57,7 +67,27 @@ h1,h2,h3,h4,h5,h6{font-family: "Montserrat", serif;}
   width: 100%;
 }
 .country-code.react-tel-input .flag-dropdown{background: none; border: none;}
-.country-code.react-tel-input .form-control {background: none; border: none; font-size: 16px; height: auto;}
+.country-code.react-tel-input .form-control {background: none; border: none; font-size: 16px; height: auto; width: 100%;}
+
+/* tabs css */
+.react-tabs__tab-list {
+  border-bottom: 1px solid #EEEEEE !important;
+  margin: 0 0 24px !important;
+  padding-bottom: 14px !important;
+}
+
+ul.react-tabs__tab-list{display: flex !important;  gap: 60px !important;}
+ul.react-tabs__tab-list li{padding: 0;}
+ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected{border: 0; color: #235370; font-weight: 600;}
+ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected::before {
+  content: '';
+  width: 100%;
+  height: 4px;
+  background: #235370;
+  border-radius: 8px 8px 0px 0px;
+  position: absolute;
+  bottom: -13px;
+}
 
 
 

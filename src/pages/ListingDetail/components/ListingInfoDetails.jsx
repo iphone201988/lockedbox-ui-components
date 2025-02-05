@@ -9,10 +9,10 @@ import VehicleIcon from '../../../assets/icons/vehicles-icn.png'
 
 const ListingInfoDetails = () => {
   return (
-   <div className="">
+   <div className=" ">
      <div className="flex justify-between py-[16px] border-b border-[#EEEEEE]">
     <div className="">
-        <p className='text-[26px] font-semibold'>Room for storage</p>
+        <p className='text-[26px] font-semibold max-md:text-[20px]'>Room for storage</p>
         <p className='location text-[18px] text-[#959595]'>Surrey</p>
     </div>
     <div className="">
@@ -53,28 +53,28 @@ const ListingInfoDetails = () => {
     </div>
     {/* storage info */}
     <div className="py-[16px] border-b border-[#EEEEEE]">
-      <div className=" flex flex-wrap gap-x-[40px] gap-y-[16px]">
-        <div className="w-[40%] flex items-center gap-[8px]">
+      <div className=" flex flex-wrap gap-x-[40px] gap-y-[16px] max-md:gap-x-[20px]">
+        <div className="w-[40%] flex items-center gap-[8px] max-md:w-[48%] max-sm:w-full">
           <img src={FurnitureIcon} alt="" />
           <p>Furniture & Household</p>
         </div>
-        <div className="w-[40%] flex items-center gap-[8px]">
+        <div className="w-[40%] flex items-center gap-[8px] max-md:w-[48%] max-sm:w-full">
           <img src={AutoPartIcon} alt="" />
           <p>Auto Parts & Accessories</p>
         </div>
-        <div className="w-[40%] flex items-center gap-[8px]">
+        <div className="w-[40%] flex items-center gap-[8px] max-md:w-[48%] max-sm:w-full">
           <img src={SeasonalIcon} alt="" />
           <p>Seasonal &  Recreation</p>
         </div>
-        <div className="w-[40%] flex items-center gap-[8px]">
+        <div className="w-[40%] flex items-center gap-[8px] max-md:w-[48%] max-sm:w-full">
           <img src={AppliancesIcon} alt="" />
           <p>Appliances & Electronics</p>
         </div>
-        <div className="w-[40%] flex items-center gap-[8px]">
+        <div className="w-[40%] flex items-center gap-[8px] max-md:w-[48%] max-sm:w-full">
           <img src={OfficeIcon} alt="" />
           <p>Office, School & Business</p>
         </div>
-        <div className="w-[40%] flex items-center gap-[8px]">
+        <div className="w-[40%] flex items-center gap-[8px] max-md:w-[48%] max-sm:w-full">
           <img src={VehicleIcon} alt="" />
           <p>Vehicles</p>
         </div>

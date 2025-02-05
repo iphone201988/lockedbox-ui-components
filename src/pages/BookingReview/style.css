@@ -1,0 +1,21 @@
+.before-dotted-line::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    border-bottom: 1px dashed #EEEEEE;
+    top: 50%;
+    left: 5%;
+    z-index: -1;
+}
+.on-hover-text{transition: all .3s ease-in;}
+.on-hover-text .show-on-hover{opacity: 0; visibility: hidden; box-shadow: 2px 16px 20px rgba(0, 0, 0, 10%); position: absolute; text-align: center;     top: -70px;
+    left: 70px; color: #000 !important; padding: 16px; border: 1px solid #EEEEEE; border-radius: 16px; background: #fff; width: max-content; transition: all .3s ease-in; z-index: 5;font-size: 18px;}
+.on-hover-text:hover .show-on-hover{opacity: 1; visibility: visible;}
+
+@media only screen and (max-width: 767px){
+    .on-hover-text .show-on-hover{left: 0; right: 0; font-size: 16px;}
+}
+
+
+
