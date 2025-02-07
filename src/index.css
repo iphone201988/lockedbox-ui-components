@@ -89,10 +89,23 @@ ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected::before {
   bottom: -13px;
 }
 
+/* btn css --- new */
+.btn-green{color: #0BB82B; padding: 8px 16px; background: #C3FFCE; border: 1px solid #C3FFCE; border-radius: 16px;}
+.btn-red{color: #FF3636; padding: 8px 16px; background: #C3FFCE; border: 1px solid #FFDADA; border-radius: 16px;}
+.btn-yellow{color: #FFB836; padding: 8px 16px; background: #C3FFCE; border: 1px solid #FFF2DA; border-radius: 16px;}
 
 
-/* responsive */
+
+/* responsive 1024 */
 @media only screen and (max-width: 1024px) {
     .btn-sec,.btn-pri{font-size: 16px;}
     .profile-link{font-size: 16px; gap: 8px;}
+}
+
+/* responsive 767 -----new */
+@media only screen and (max-width: 767px) {
+  ul.react-tabs__tab-list{
+    gap: 24px !important;
+    flex-wrap: wrap;
+  }
 }

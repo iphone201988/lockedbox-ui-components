@@ -6,7 +6,7 @@ import ProfilePopup from "./components/ProfilePopup";
 
 const RenterSidebar = () => {
   return (
-    <div className=" h-[100vh]">
+    <div className=" h-[100vh] max-lg:hidden">
       <div className="flex flex-col border-r border-[#EEEEEE] fixed left-0 top-0 bg-white z-[999] py-[32px] px-[16px] h-full">
         <a className="mb-[45px] block " href="">
           <img className="max-w-[158px] mx-auto" src={Logo} alt="" />

@@ -3,7 +3,7 @@ import React from 'react'
 const ProfileDropDown = () => {
   return (
     // add (hidden) class to hide profile dropdown---
-    <div className="shadow rounded-[16px] border border-[#EEEEEE] absolute right-0 top-[58px] bg-white z-[999] hidden"> 
+    <div className="shadow rounded-[16px] border border-[#EEEEEE] absolute right-0 top-[58px] bg-white z-[999]"> 
       <div className="p-[12px] w-max flex flex-col gap-[16px] max-md:gap-[8px]">
             <a className='profile-link' href="">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
