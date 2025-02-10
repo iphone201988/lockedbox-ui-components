@@ -53,7 +53,7 @@ for Hosts</h5>
 
 <h5 className='text-[26px] font-bold mt-[16px] mb-[12px] max-lg:text-[20px]'>Verified <br />
 Renters</h5>
-<p className='text-[20px] max-lg:text-[16px]'>We ensure that all renters are thoroughly vetted through background checks, providing hosts with peace of mind and a secure experience.
+<p className='text-[20px] max-lg:text-[16px]'>Renters on Neighbor are identity-verified through phone and email, giving you added security and confidence when sharing your space.
 </p>
             </div>
            

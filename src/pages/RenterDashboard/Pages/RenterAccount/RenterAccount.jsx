@@ -6,6 +6,9 @@ import AccountProfile from "./components/AccountProfile";
 import AccountSecurity from "./components/AccountSecurity";
 import AccountNotification from "./components/AccountNotification";
 import AccountPayment from "./components/AccountPayment";
+import VerifyPopup from "./components/Popups/VerifyPopup";
+import VerificationCodePopup from "./components/Popups/VerificationCodePopup";
+import AddPaymentPopup from "./components/Popups/AddPaymentPopup";
 
 const RenterAccount = () => {
   return (
@@ -35,6 +38,13 @@ const RenterAccount = () => {
           <AccountPayment/>
         </TabPanel>
       </Tabs>
+
+      {/* account popus */}
+      <div className="">
+        {/* <VerifyPopup/> */}
+        {/* <VerificationCodePopup/> */}
+        <AddPaymentPopup/>
+      </div>
     </div>
   );
 };

@@ -91,8 +91,8 @@ ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected::before {
 
 /* btn css --- new */
 .btn-green{color: #0BB82B; padding: 8px 16px; background: #C3FFCE; border: 1px solid #C3FFCE; border-radius: 16px;}
-.btn-red{color: #FF3636; padding: 8px 16px; background: #C3FFCE; border: 1px solid #FFDADA; border-radius: 16px;}
-.btn-yellow{color: #FFB836; padding: 8px 16px; background: #C3FFCE; border: 1px solid #FFF2DA; border-radius: 16px;}
+.btn-red{color: #FF3636; padding: 8px 16px; background: #FFDADA; border: 1px solid #FFDADA; border-radius: 16px;}
+.btn-yellow{color: #FFB836; padding: 8px 16px; background: #FFF2DA; border: 1px solid #FFF2DA; border-radius: 16px;}
 
 
 
