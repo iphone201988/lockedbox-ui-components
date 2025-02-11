@@ -1,6 +1,7 @@
 import React from 'react'
 import ProfilPic from '../../../../../assets/rent-profile-pic.png'
 import LocationIcon from '../../../../../assets/icons/location-icn-grey.png'
+import testImg from '../../../../../assets/gall-img-3.png'
 
 const AccountProfile = () => {
   return (
@@ -19,8 +20,8 @@ const AccountProfile = () => {
         </div>
         <div className="p-[20px] flex flex-col">
             <div className="flex gap-[16px] pb-[16px]">
-            <div className="w-[130px] h-[130px] p-[5px] bg-white rounded-full mt-[-80px] ">
-            <img className=' object-cover' src={ProfilPic} alt="" />
+            <div className="w-[130px] h-[130px] p-[5px] bg-white rounded-full mt-[-80px] overflow-hidden">
+            <img className='w-full h-full rounded-full object-cover' src={testImg} alt="" />
             </div>
             <div className="">
                 <h5 className='text-[24px] font-semibold'>Xander</h5>

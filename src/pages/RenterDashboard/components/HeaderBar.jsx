@@ -8,7 +8,7 @@ const HeaderBar = () => {
       <h2 className='text-[32px] text-[#235370] font-bold max-lg:text-[26px]'>Your account</h2>
       <div className=" hidden max-lg:block relative ">
         <button className='cursor-pointer w-[48px] h-[48px] relative'><img src={RenterPic} alt="" /></button>
-        <ProfileDropDown className={'!hidden'}/>
+        <ProfileDropDown/>
       </div>
     </div>
   )

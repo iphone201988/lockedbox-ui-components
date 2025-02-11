@@ -58,7 +58,10 @@ input[type="number"] {
 .profile-link svg{fill: #1E1E1E; transition: all .3s ease;}
 .profile-link:hover svg{fill: #235370; transition: all .3s ease;}
 .profile-link:hover{color: #235370;}
-.notify-dot{width: 12px; height: 12px; min-width: 12px; background: #235370; border-radius: 50%; margin-left: auto;}
+
+/* added new CSS ----new  */
+.notify-dot{width: 12px; height: 12px; min-width: 12px; background: #235370; border-radius: 50%; margin-left: auto;position: absolute;
+  right: 4px;}
 
 .country-code.react-tel-input {
   font-family: 'Proxima-Regular';

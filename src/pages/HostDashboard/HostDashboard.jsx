@@ -1,0 +1,29 @@
+import React from 'react'
+import HeaderBar from '../RenterDashboard/components/HeaderBar'
+import HostSidebar from '../../components/HostSidebar/HostSidebar'
+import RenterSidebar from '../../components/RenterSidebar/RenterSidebar'
+import HostHeader from './components/HostHeader'
+import HostHome from './Pages/HostHome/HostHome'
+import HostListings from './Pages/HostListings/HostListings'
+import CreateListing from './Pages/Create Listing/CreateListing'
+
+
+const HostDashboard = () => {
+  return (
+    <div>
+    <HostSidebar/>
+
+  <header className='fixed left-[220px] top-0 w-full z-[999] max-lg:left-0'>
+    <HostHeader/>
+  </header>
+
+  <main className='ml-[220px] absolute top-[100px] w-[calc(100%-220px)] h-[calc(100vh-100px)] max-lg:ml-[0] max-lg:w-full max-lg:top-[94px]'>
+    {/* <HostHome/> */}
+    {/* <HostListings/> */}
+    <CreateListing/>
+  </main>
+</div>
+  )
+}
+
+export default HostDashboard

@@ -43,7 +43,7 @@ const RenterAccount = () => {
       <div className="">
         {/* <VerifyPopup/> */}
         {/* <VerificationCodePopup/> */}
-        <AddPaymentPopup/>
+        {/* <AddPaymentPopup/> */}
       </div>
     </div>
   );

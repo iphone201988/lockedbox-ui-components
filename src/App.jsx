@@ -8,6 +8,7 @@ import Signup from "./pages/Auth/Signup/Signup";
 import Verify from "./pages/Auth/Verify/Verify";
 import BookingReview from "./pages/BookingReview/BookingReview";
 import Home from "./pages/Home/Home";
+import HostDashboard from "./pages/HostDashboard/HostDashboard";
 import ListingDetail from "./pages/ListingDetail/ListingDetail";
 import RenterDashboard from "./pages/RenterDashboard/RenterDashboard";
 import Search from "./pages/Search/Search";
@@ -32,7 +33,9 @@ function App() {
      {/* <ListingDetail/> */}
      {/* <BookingReview/> */}
 
-     <RenterDashboard/>
+     {/* <RenterDashboard/> */}
+
+     <HostDashboard/>
     </>
   );
 }
