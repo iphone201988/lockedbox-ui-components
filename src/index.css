@@ -98,6 +98,20 @@ ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected::before {
 .btn-yellow{color: #FFB836; padding: 8px 16px; background: #FFF2DA; border: 1px solid #FFF2DA; border-radius: 16px;}
 
 
+/* new css--------------- */
+.dropdown-container  {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Safari, Chrome, Opera */
+  -webkit-appearance: none;
+}
+
+/* for IE10 */
+.dropdown-container::-ms-expand {
+  display: none;
+}
+
+
 
 /* responsive 1024 */
 @media only screen and (max-width: 1024px) {

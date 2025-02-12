@@ -1,32 +1,89 @@
+.step-form .react-tabs__tab-list {
+    padding: 0 !important;
+    border: none !important;
+    justify-content: space-between;
+}
 
-.step-form .react-tabs__tab-list{padding: 0 !important;  border: none !important; justify-content: space-between; }
 .step-form ul.react-tabs__tab-list {
     padding: 20px 30px !important;
     border: 1px solid #EEEEEE !important;
     border-radius: 8px !important;
-    width: 1148px !important;
+    width: 100% !important;
+    max-width: 1148px !important;
 }
-.step-form .react-tabs__tab-list .react-tabs__tab{width: 30%;}
-.step-form ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected::before{display: none !important;}
-.step-form ul.react-tabs__tab-list li.react-tabs__tab .step-button{justify-content: center;}
 
-.step-form ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected .step-button .step-number{background: #235370;}
-.step-form ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected .step-count{color: #235370 !important;}
-.step-form ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected p{color: #000 !important;}
-.step-form .step-button .step-count{color: #959595 !important;}
-.step-form .step-button p{color: #959595 !important;}
-.step-form .step-button .step-number{background: #959595;}
+.step-form .react-tabs__tab-list .react-tabs__tab {
+    width: 30%;
+}
+
+.step-form ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected::before {
+    display: none !important;
+}
+
+.step-form ul.react-tabs__tab-list li.react-tabs__tab .step-button {
+    justify-content: center;
+}
+
+.step-form ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected .step-button .step-number {
+    background: #235370;
+}
+
+.step-form ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected .step-count {
+    color: #235370 !important;
+}
+
+.step-form ul.react-tabs__tab-list li.react-tabs__tab.react-tabs__tab--selected p {
+    color: #000 !important;
+}
+
+.step-form .step-button .step-count {
+    color: #959595 !important;
+}
+
+.step-form .step-button p {
+    color: #959595 !important;
+}
+
+.step-form .step-button .step-number {
+    background: #959595;
+}
+
+.stored-hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    min-width: 230px;
+    max-width: 230px;
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.stored-hover svg {
+    fill: #1E1E1E;
+}
+
+.stored-hover.active {
+    background: #235370;
+    color: #FFFFFF;
+}
+.stored-hover:hover {
+    background: #235370;
+    color: #FFFFFF;
+}
+
+.stored-hover.active svg {
+    fill: #FFFFFF;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* responsive */
+@media only screen and (max-width: 766px){
+    .step-form ul.react-tabs__tab-list{flex-direction: column;}
+    .step-form ul.react-tabs__tab-list li.react-tabs__tab .step-button{justify-content: start;}
+    .step-form .react-tabs__tab-list .react-tabs__tab{width: 100%;}
+}
