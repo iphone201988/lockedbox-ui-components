@@ -6,6 +6,7 @@ import HostHeader from './components/HostHeader'
 import HostHome from './Pages/HostHome/HostHome'
 import HostListings from './Pages/HostListings/HostListings'
 import CreateListing from './Pages/Create Listing/CreateListing'
+import HostCheckIn from './Pages/HostCheckIn/HostCheckIn'
 
 
 const HostDashboard = () => {
@@ -20,7 +21,8 @@ const HostDashboard = () => {
   <main className='ml-[220px] absolute top-[100px] w-[calc(100%-220px)] h-[calc(100vh-100px)] max-lg:ml-[0] max-lg:w-full max-lg:top-[94px]'>
     {/* <HostHome/> */}
     {/* <HostListings/> */}
-    <CreateListing/>
+    {/* <CreateListing/> */}
+    <HostCheckIn/>
   </main>
 </div>
   )
