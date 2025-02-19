@@ -33,9 +33,9 @@ function App() {
      {/* <ListingDetail/> */}
      {/* <BookingReview/> */}
 
-     {/* <RenterDashboard/> */}
+     <RenterDashboard/>
 
-     <HostDashboard/>
+     {/* <HostDashboard/> */}
     </>
   );
 }
