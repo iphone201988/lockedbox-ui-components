@@ -7,6 +7,9 @@ import HostHome from './Pages/HostHome/HostHome'
 import HostListings from './Pages/HostListings/HostListings'
 import CreateListing from './Pages/Create Listing/CreateListing'
 import HostCheckIn from './Pages/HostCheckIn/HostCheckIn'
+import HostBooking from './Pages/HostBooking/HostBooking'
+import HostMessage from './Pages/HostMessage/HostMessage'
+import PerformanceAndReviews from './Pages/PerformanceAndReviews/PerformanceAndReviews'
 
 
 const HostDashboard = () => {
@@ -22,7 +25,11 @@ const HostDashboard = () => {
     {/* <HostHome/> */}
     {/* <HostListings/> */}
     {/* <CreateListing/> */}
-    <HostCheckIn/>
+    {/* <HostBooking/> */}
+    {/* <HostCheckIn/> */}
+    {/* <HostMessage/> */}
+    <PerformanceAndReviews/>
+
   </main>
 </div>
   )

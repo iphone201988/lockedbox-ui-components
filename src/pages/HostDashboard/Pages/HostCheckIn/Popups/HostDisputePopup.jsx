@@ -36,8 +36,7 @@ const HostDisputePopup = () => {
                     type="text"
                     placeholder="Enter phone number"
                   >
-                    The host space did not match listing. It had pests in it and was
-                    very very messy
+                    Roof leaking due to storm.
                   </textarea>
                 </div>
               </div>
