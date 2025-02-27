@@ -8,11 +8,11 @@ const PriceSummary = () => {
   return (
     <div className='p-[20px]'>
       <div className="">
-        <StartEndDate/>
-      </div>
-      <div className="py-[30px]">
+            <StartEndDate/>
+          </div>
+      {/* <div className="pb-[20px]">
         <PriceInfo/>
-      </div>
+      </div> */}
       <div className="">
         <PaymentDetail/>
       </div>

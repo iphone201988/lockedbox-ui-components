@@ -1,3 +1,4 @@
+import AdminDashboard from "./pages/AdminDashboard/AdminDashboard";
 import CreatePassword from "./pages/Auth/CreatePassword/CreatePassword";
 import ForgotPassword from "./pages/Auth/ForgotPassword/ForgotPassword";
 import HostOrRent from "./pages/Auth/HostOrRent/HostOrRent";
@@ -31,11 +32,13 @@ function App() {
      {/* <Search/> */}
      {/* <SearchResult/> */}
      {/* <ListingDetail/> */}
-     {/* <BookingReview/> */}
+     <BookingReview/>
 
      {/* <RenterDashboard/> */}
 
-     <HostDashboard/>
+     {/* <HostDashboard/> */}
+
+     {/* <AdminDashboard/> */}
     </>
   );
 }

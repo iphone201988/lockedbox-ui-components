@@ -4,8 +4,8 @@ import HostProfilePic from '../../../assets/host-profile-pic.png'
 
 const BookingInfo = () => {
   return (
-    <div className='p-[20px]'>
-      <h3 className='text-[32px] font-bold max-lg:text-[26px]'>Booking Review</h3>
+    <div className='p-[20px] pb-[0]'>
+      <h3 className='text-[28px] font-bold max-lg:text-[26px]'>Booking Review</h3>
       <div className="pt-[24px] pb-[16px] border-b border-[#EEEEEE]">
         <BookingListingBox/>
       </div>

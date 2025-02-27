@@ -29,6 +29,16 @@ const AccountPayment = () => {
                 </div>
                 <button className="btn-sec mt-[20px] ml-auto">Remove</button>
             </div>
+            {/* <div className="flex flex-col w-full max-w-[400px] border border-[#EEEEEE] p-[16px] rounded-[16px]">
+                <div className="flex gap-[24px] items-start">
+                <img src={CardLogo} alt="" />
+                <div className="">
+                    <p>Visa Card</p>
+                    <p className=" font-semibold mt-[8px]">XXXX XXXX XXXX 1234</p>
+                </div>
+                </div>
+                <button className="text-[#235370] ml-auto">Select</button>
+            </div> */}
 
             {/* add card */}
             <button className=" cursor-pointer flex max-w-[150px] flex-col justify-center items-center border border-[#235370] border-dashed rounded-[16px] p-[20px] hover:bg-[#EEEEEE]">

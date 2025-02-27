@@ -3,7 +3,7 @@ import ListingImg from '../../../assets/Listing-1.png'
 
 const BookingListingBox = () => {
   return (
-   <div className='bg-white rounded-[16px] relative max-w-[260px] '>
+   <div className='bg-white rounded-[16px] relative max-w-[240px] '>
          <img className='rounded-[10px]' src={ListingImg} alt="" />
          <div className="flex justify-center items-center flex-col bg-[#235370] text-[#ffffff] rounded-[8px] p-[5px] absolute right-[15px] top-[15px]">
          <span className='flex gap-[4px] items-center'>  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
