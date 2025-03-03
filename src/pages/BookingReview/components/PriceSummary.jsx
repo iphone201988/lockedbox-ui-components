@@ -8,7 +8,7 @@ const PriceSummary = () => {
   return (
     <div className='p-[20px]'>
       <div className="">
-            <StartEndDate/>
+            <StartEndDate/> 
           </div>
       {/* <div className="pb-[20px]">
         <PriceInfo/>

@@ -69,7 +69,7 @@ const DisputePopup = () => {
             Upload Pic
             </button>
             <button className="btn-sec !block mt-[16px]">No</button>
-            <button className="btn-pri !block mt-[16px]">Yes</button>
+            <button className="btn-pri !bg-[#FF3636] !block mt-[16px]">Dispute</button>
           </div>
         </body>
       </div>

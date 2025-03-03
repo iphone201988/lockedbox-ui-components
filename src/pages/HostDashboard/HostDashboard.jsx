@@ -24,11 +24,11 @@ const HostDashboard = () => {
   <main className='ml-[220px] absolute top-[100px] w-[calc(100%-220px)] h-[calc(100vh-100px)] max-lg:ml-[0] max-lg:w-full max-lg:top-[94px]'>
     {/* <HostHome/> */}
     {/* <HostListings/> */}
-    {/* <CreateListing/> */}
+    <CreateListing/>
     {/* <HostBooking/> */}
     {/* <HostCheckIn/> */}
     {/* <HostMessage/> */}
-    <PerformanceAndReviews/>
+    {/* <PerformanceAndReviews/> */}
 
   </main>
 </div>

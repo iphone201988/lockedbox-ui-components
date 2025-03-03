@@ -10,10 +10,10 @@ const FutureListing = () => {
         <button className=' absolute top-[10px] right-[10px] cursor-pointer max-md:bg-white max-md:p-[4px] rounded-bl-[4px]'>
             <img src={DisputeIcon} alt="" />
         </button>
-            <div className="flex gap-[12px] max-md:flex-col max-md:w-full ">
+            <div className="flex w-[70%] gap-[12px] max-md:flex-col max-md:w-full pr-[12px]">
                 <img className='w-[130px] h-[115px] object-cover rounded-[10px] max-md:w-full max-md:h-[200px]' src={BoxImage} alt="" />
                 <div className="storage-details flex flex-col gap-[4px]">
-                    <p className='text-[18px] font-semibold max-md:text-[16px]'>Room for storage at 16356 North Vale Road, Surrey</p>
+                    <p className='text-[18px] font-semibold max-mlg:text-[16px] '>Room for storage at 16356 North Vale Road, Surrey at 16356 North Vale Road, Surrey at 16356 North Vale Road, Surrey</p>
                     <p className='text-[#959595] max-md:text-[14px]'><span className='font-semibold text-black'>Booking Confirmation:</span> 123456789</p>
                     <p className='text-[#959595] max-md:text-[16px]'><span className='font-semibold text-black'>From:</span> May 18/2024 - June 18/2024</p>
                     <div className='mt-auto flex gap-[12px] items-center'>

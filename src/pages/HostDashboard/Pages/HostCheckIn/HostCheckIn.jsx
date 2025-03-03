@@ -106,7 +106,7 @@ const HostCheckIn = () => {
          </div>
          {/* checkin popus */}
          <div className="">
-            {/* <HostDisputePopup/> */}
+            <HostDisputePopup/>
           {/* <UploadPicPopup/> */}
            {/* <HostCheckInConfirmPopup/> */}
          </div>

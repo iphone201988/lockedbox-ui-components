@@ -104,7 +104,7 @@ const RenterCheckIn = () => {
       {/* checkin popus */}
       <div className="">
         {/* <UploadPicPopup/> */}
-        {/* <DisputePopup/> */}
+        <DisputePopup/>
         {/* <CheckInConfirmPopup /> */}
       </div>
     </>

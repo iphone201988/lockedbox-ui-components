@@ -143,7 +143,7 @@ const StepOne = () => {
         </div>
         <div className=" max-w-[55%] w-full max-md:max-w-full">
           <div className="mb-[16px] flex flex-wrap gap-[16px]">
-            <div className="stored-hover ">
+            <div className="stored-hover relative">
               <span>
               <svg width="36" height="36" viewBox="0 0 36 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 <path d="M3 12V10.5C3 5.529 7.029 1.5 12 1.5H24C28.971 1.5 33 5.529 33 10.5V12C29.6865 12 27 14.6865 27 18V22.5H9V18C9 14.6865 6.3135 12 3 12ZM32.496 15.0405C31.0215 15.2805 30 16.665 30 18.1605V24C30 24.828 29.328 25.5 28.5 25.5H7.5C6.672 25.5 6 24.828 6 24V18.1605C6 16.6665 4.9785 15.2805 3.504 15.0405C1.6245 14.7345 0 16.1775 0 18V24C0 26.454 1.179 28.632 3 30V33C3 33.828 3.672 34.5 4.5 34.5C5.328 34.5 6 33.828 6 33V31.35C6.4845 31.449 6.987 31.5 7.5 31.5H28.5C29.013 31.5 29.5155 31.449 30 31.35V33C30 33.828 30.672 34.5 31.5 34.5C32.328 34.5 33 33.828 33 33V30C34.821 28.632 36 26.454 36 24V18C36 16.1775 34.3755 14.736 32.496 15.0405Z" fill="currentColor"/>
@@ -151,8 +151,25 @@ const StepOne = () => {
 
               </span>
               <p>Furniture & Household</p>
+              <div className="on_hover">
+                <ul>
+                  <li>Sofas and couches</li>
+                  <li>Coffee tables</li>
+                  <li>TV stands and entertainment centers</li>
+                  <li>Recliners and armchairs</li>
+                  <li>Side tables</li>
+                  <li>Beds and frames</li>
+                  <li>Mattresses (with proper protection)</li>
+                  <li>Dressers</li>
+                  <li>Nightstands</li>
+                  <li>Wardrobes</li>
+                  <li>Dining tables</li>
+                  <li>Dining chairs</li>
+                  <li>Buffets and sideboards</li>
+                </ul>
+              </div>
             </div>
-            <div className="stored-hover active">
+            <div className="stored-hover relative active">
               <span>
                 <svg
                   width="36"
@@ -175,8 +192,23 @@ const StepOne = () => {
                 </svg>
               </span>
               <p>Auto Parts & Accessories</p>
+              <div className="on_hover">
+                <ul>
+                  <li>Tires</li>
+                  <li>Wheels and rims</li>
+                  <li>Batteries</li>
+                  <li>Alternators</li>
+                  <li>Starters</li>
+                  <li>Spark plugs</li>
+                  <li>Brake pads and rotors</li>
+                  <li>Brake calipers</li>
+                  <li>Oil filters</li>
+                  <li>Air filters</li>
+                  <li>Fuel filters</li>
+                </ul>
+              </div>
             </div>
-            <div className="stored-hover ">
+            <div className="stored-hover relative ">
               <span>
               <svg width="36" height="36" viewBox="0 0 36 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_150_2257)">
@@ -191,8 +223,24 @@ const StepOne = () => {
 
               </span>
               <p>Seasonal &  Recreation</p>
+              <div className="on_hover">
+                <ul>
+                  <li>Balls</li>
+                  <li>Rackets</li>
+                  <li>Bats and gloves</li>
+                  <li>Hockey equipment</li>
+                  <li>Bicycles, skateboards, and scooters</li>
+                  <li>Fishing gear</li>
+                  <li>Camping gear</li>
+                  <li>Exercise equipment</li>
+                  <li>Watercraft</li>
+                  <li>Pool floats and toys</li>
+                  <li>Outdoor grills and coolers</li>
+                  <li>Ski's and winter</li>
+                </ul>
+              </div>
             </div>
-            <div className="stored-hover ">
+            <div className="stored-hover relative">
               <span>
               <svg width="36" height="36" viewBox="0 0 36 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 <path d="M12.7665 19.626C13.788 17.7735 15.738 16.5 18 16.5C21.09 16.5 23.6115 18.8565 23.9355 21.861C23.5245 22.1505 22.8735 22.5 22.092 22.5C20.8335 22.5 19.35 21.6255 18.888 21.2895C18.6375 21.1065 16.3755 19.5 13.9095 19.5C13.503 19.5 13.1265 19.5525 12.7665 19.626ZM33 7.5V28.5C33 32.6355 29.6355 36 25.5 36H10.5C6.3645 36 3 32.6355 3 28.5V7.5C3 3.3645 6.3645 0 10.5 0H25.5C29.6355 0 33 3.3645 33 7.5ZM15 6.75C15 7.992 16.008 9 17.25 9C18.492 9 19.5 7.992 19.5 6.75C19.5 5.508 18.492 4.5 17.25 4.5C16.008 4.5 15 5.508 15 6.75ZM9.75 9C10.992 9 12 7.992 12 6.75C12 5.508 10.992 4.5 9.75 4.5C8.508 4.5 7.5 5.508 7.5 6.75C7.5 7.992 8.508 9 9.75 9ZM27 22.5C27 17.5365 22.9635 13.5 18 13.5C13.0365 13.5 9 17.5365 9 22.5C9 27.4635 13.0365 31.5 18 31.5C22.9635 31.5 27 27.4635 27 22.5ZM22.092 25.5C19.6245 25.5 17.364 23.8935 17.1135 23.7105C16.6515 23.3745 15.168 22.5 13.9095 22.5C13.128 22.5 12.4755 22.848 12.066 23.139C12.39 26.145 14.9115 28.5 18.0015 28.5C20.2635 28.5 22.2135 27.228 23.235 25.374C22.875 25.4475 22.4985 25.5 22.092 25.5Z" fill="currentColor"/>
@@ -200,8 +248,22 @@ const StepOne = () => {
 
               </span>
               <p>Appliances & Electronics</p>
+              <div className="on_hover">
+                <ul>
+                  <li>Refrigerators</li>
+                  <li>Freezers</li>
+                  <li>Ovens</li>
+                  <li>Stoves</li>
+                  <li>Microwaves</li>
+                  <li>Dishwashers</li>
+                  <li>Washing machines</li>
+                  <li>Dryers</li>
+                  <li>Air conditioners</li>
+                  <li>Heaters</li>
+                </ul>
+              </div>
             </div>
-            <div className="stored-hover ">
+            <div className="stored-hover relative ">
               <span>
               <svg width="36" height="36" viewBox="0 0 36 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_865_47)">
@@ -217,8 +279,18 @@ const StepOne = () => {
 
               </span>
               <p>Office, School & Business</p>
+              <div className="on_hover">
+                <ul>
+                  <li>Computers and laptops</li>
+                  <li>Printers and scanners</li>
+                  <li>Office furniture</li>
+                  <li>Stationery</li>
+                  <li>Binders and folders</li>
+                  <li>Whiteboards and bulletin boards</li>
+                </ul>
+              </div>
             </div>
-            <div className="stored-hover ">
+            <div className="stored-hover relative ">
               <span>
               <svg width="36" height="36" viewBox="0 0 36 36" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_150_2254)">
@@ -233,6 +305,11 @@ const StepOne = () => {
 
               </span>
               <p>Vehicles</p>
+              <div className="on_hover">
+                <ul>
+                  <li>Only standard passenger vehicles</li>
+                </ul>
+              </div>
             </div>
            
           </div>
