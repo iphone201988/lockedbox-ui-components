@@ -3,13 +3,15 @@ import GraphImg from '../../../../../assets/graph-img.png'
 import EarningIcon from '../../../../../assets/icons/earning-icn.png'
 import TotalMoneyIcon from '../../../../../assets/icons/total-money-icn.png'
 import OccupancyIcon from '../../../../../assets/icons/occupancy-icn.png'
+import HostGraph from './HostGraph'
 
 
 const HostPerformance = () => {
   return (
     <div className='flex gap-[16px] max-lg:flex-col'>
       <div className="w-full">
-        <img className='w-full' src={GraphImg} alt="" />
+        {/* <img className='w-full' src={GraphImg} alt="" /> */}
+        <HostGraph/>
       </div>
       <div className="w-full flex flex-col gap-[16px]">
         <div className=" border border-[#EEEEEE] rounded-[8px] p-[16px] w-full max-w-[360px]">

@@ -36,7 +36,7 @@ function App() {
      {/* support pages */}
      {/* <FAQ/> */}
      {/* <RenterBasics/> */}
-     <ContactUs/>
+     {/* <ContactUs/> */}
 
      {/* <Search/> */}
      {/* <SearchResult/> */}
@@ -46,7 +46,7 @@ function App() {
      {/* <RenterDashboard/> */}
      {/* <BookingReceipt/> */}
 
-     {/* <HostDashboard/> */}
+     <HostDashboard/>
 
      {/* <AdminDashboard/> */}
     </>
