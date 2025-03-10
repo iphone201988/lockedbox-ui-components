@@ -18,6 +18,7 @@ import Search from "./pages/Search/Search";
 import SearchResult from "./pages/SearchResult/SearchResult";
 import RenterBasics from "./pages/SupportPages/RenterBasics";
 import ContactUs from "./pages/SupportPages/ContactUs";
+import AdminLogin from "./pages/Auth/AdminLogin/AdminLogin";
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
     <>
      {/* <Home/> */}
      {/* <Login/> */}
-     {/* <Signup/> */}
+     <Signup/>
      {/* <Verify/> */}
      {/* <CreatePassword/> */}
      {/* <HostOrRent/> */}
@@ -46,9 +47,10 @@ function App() {
      {/* <RenterDashboard/> */}
      {/* <BookingReceipt/> */}
 
-     <HostDashboard/>
+     {/* <HostDashboard/> */}
 
      {/* <AdminDashboard/> */}
+     <AdminLogin/>
     </>
   );
 }

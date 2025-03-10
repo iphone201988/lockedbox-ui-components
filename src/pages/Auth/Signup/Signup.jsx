@@ -42,6 +42,22 @@ const Signup = () => {
                 <button className="btn-pri">Signup by Email</button>
                 <button className="btn-sec">Signup by Phone number</button>
               </div>
+
+{/* name  */}
+<div className="flex gap-[16px] relative w-full max-w-[540px] mb-[16px]">
+              <input
+                className="border border-[#EEEEEE] py-[20px] px-[16px] w-full rounded-2xl "
+                type="text"
+                placeholder="Enter First name"
+              />
+              <input
+                className="border border-[#EEEEEE] py-[20px] px-[16px] w-full rounded-2xl "
+                type="text"
+                placeholder="Enter Last name"
+              />
+            </div>
+
+
               {/* for email */}
             <div className="input-with-icon relative w-full max-w-[540px]">
               <input
